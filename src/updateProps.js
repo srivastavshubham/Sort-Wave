@@ -51,7 +51,11 @@ const updateProps = (state=initializer,action) => {
       case 'PLAY_PAUSE': {
          return {...state,play:action._play};
       }
-
+      
+      case 'SET_CUSTOM_VALUES': {
+         return { ...state, values: action.values };
+     }
+     
       default:
          return state;
    }
