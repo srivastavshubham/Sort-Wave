@@ -1,10 +1,10 @@
 import React from 'react';
-import Sidebar from './Sidebar';
+import Bar from './Bar'
 
 function Home() {
   return (
     <div className="home">
-       <Sidebar />
+       <Bar/>
    </div>
   )
 }
